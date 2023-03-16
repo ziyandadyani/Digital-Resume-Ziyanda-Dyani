@@ -1,0 +1,1028 @@
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> DEFAULT/ DESKTOP <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< //
+html,body{
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  overflow-x: hidden;
+ }
+
+
+header{
+  display: flex;
+  align-items:flex-start;
+  justify-content: center;
+  position: absolute;
+  width:fit-content;
+  left: 54vw;
+  display: inline-block;
+  overflow: visible;
+  inline-size: min-content;
+
+}
+
+.menuicon{
+  display: none;
+}
+.myname{
+  color: grey;
+  font-size: 3vw;
+  width: 27% ;
+  height: 60px;
+  margin: 1%;
+  position: absolute;
+  left: 34%;
+  top: 0%;
+  margin-top: 0.5;
+  display: flex;
+  justify-content: center;
+   align-items: center;
+}
+
+
+
+.namebackground{
+  
+  width: 30vw;
+  height: 97px;
+  background-color: #232d2e;
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  left: 30em;
+  margin: 0;
+  
+
+  bottom: 0.5em;
+}
+
+img{
+  z-index: -1;
+}
+
+h3.job_title{
+  color: grey;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 15%;
+  font-size: 3vw;
+  left: 51.55%;
+  margin: 0;
+  z-index: 23;
+  span{
+    font-size: 3vw;
+    position: absolute;
+    left: 3.7em;
+    padding:0;
+    color: whitesmoke;
+    
+  }
+}
+
+h3.dev{
+  font-size: 5vw;
+  position: absolute;
+  left: 63%;
+  top: 15%;
+   
+}
+
+span.est{
+  font-size:1vw;
+  position:absolute;
+  top: 6.5em;
+  left: 27em;
+}
+
+.personal_statement{
+  width: 30vw;
+  height: 17vh;
+  line-height: 2.5vw;
+  text-align: center;
+  font-size: 1.3vw;
+  position: absolute;
+  left: 63%;
+  top: 50%;
+ }
+
+
+
+ .digits{
+  display: none;
+  .number{
+    font-size: 1vw;
+    position: absolute;
+    left: 41%;
+    top: 51%;
+
+  .number2{
+    p.one{
+      font-size: 1vw;
+    }
+    p.two{
+      font-size: 1vw;
+    }
+    p.three{
+      font-size: 1vw;  
+  }
+  }
+  }
+ }
+
+ .arrow {
+  width: 6vw;
+  position: absolute;
+  left: 76%;
+  top: 63%;
+  animation: moveArrow 2s alternate-reverse;
+  animation-iteration-count: infinite;
+ }
+ nav{
+  width: 60vw;
+  margin: 0;
+ }
+ ul.menu{
+  
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+  a{
+    color: whitesmoke;
+    text-decoration: none;
+  
+}
+}
+
+aside{
+  padding-left: 7.5em;
+}
+
+body{
+  font-family: "Poppins", sans-serif;
+  background-color: #232D2E;
+  color: whitesmoke;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  
+  
+}
+
+.open-nav{
+  transform:translateX(0%);
+}
+article{
+  padding-left: 10%;
+  padding-right: 10%;
+  margin: 2em;
+  margin-top: 13em;
+}
+
+footer{
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 3em;
+  padding-bottom: 25em;
+  
+  background-color: black;
+  color: whitesmoke;
+  a{
+    color: rgb(140, 206, 247);
+  }
+}
+
+.experience_section{
+  margin-top: 3em;
+}
+
+.skills_section{
+  margin-top: 3em;
+}
+
+.QF1_container{
+  display: flex;
+  align-items: baseline;
+
+}
+
+.QF2_container{
+  display: flex;
+  align-items: baseline;
+}
+
+.job1_container{
+  display: flex;
+  align-items: baseline;
+}
+
+.job2_container{
+  display: flex;
+  align-items: baseline;
+}
+
+.cs_h{
+  padding-right: 7em;
+  width: 80em;
+  
+}
+.q2_h{
+  padding-right: 11.5em;
+  width: 80em;
+  
+}
+.j1_h{
+  padding-right: 11.7em;
+  width: 10em;
+  
+}
+.j2_h{
+  padding-right: 11.7em;
+  width: 10em;
+  
+}
+
+ul.skl{
+  display: flex;
+  justify-content: space-between;
+}
+
+h4{
+  font-weight: lighter;
+  margin-left: 4.5em;
+  position: relative;
+  top: 1em;
+}
+
+img.logom{
+  width: 40px;
+  height: 40px;
+}
+
+.logom:hover {
+  animation: moveRight 3s forwards;
+}
+
+@keyframes moveRight{
+  from{
+    transform: scale(1.3);
+    filter: grayscale(100%);
+  }
+  to{
+    transform: scale(1);
+    filter: grayscale(0%);
+  }
+}
+
+.logodiv{
+  display: flex;
+  justify-content: space-between;
+  width: 182px;
+  position: relative;
+  left: 0.8em;
+}
+
+.links{
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+}
+
+//bobbing arrow animation
+
+@keyframes moveArrow{
+  from{
+    transform: translateY(-30px);
+  }
+  to{
+    transform: translateY(0);
+  } 
+}
+
+
+// Styling HTML Form ('Get in touch')
+
+fieldset{
+  width: 100%;
+  border-color: black;
+}
+
+.form_row{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 0.5em;
+
+}
+
+
+.formgroup{
+  padding-bottom: 2%;
+  display: flex;
+  justify-content: center;
+}
+
+.col{
+  width: 280px;
+  height: 28px;
+  border-radius: 5px;
+  
+}
+
+input{
+  border: none;
+}
+.dropdownlist{
+  display: flex;
+  justify-content: center;
+}
+
+select{
+  width: 580px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+
+textarea{
+  width: 576px;
+  border-radius: 5px;
+}
+
+form{
+ width: 400px;
+ display: flex;
+ justify-content: center;
+ align-items: baseline;
+ padding: 0;
+}
+
+.btn{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+  
+}
+
+button{
+  width: 580px;
+  height: 40px;
+  background-color: rgb(37, 101, 229);
+  color: white;
+  border-radius: 5px;
+  border: none;
+  font-size: larger;
+  display: flex;
+  justify-content: center; 
+  align-items: center;      
+}
+
+
+
+.imagediv{
+  width: 70%;
+  height: 100vh;
+  display: inline-block;
+  overflow: auto;
+}
+
+.hero_section{
+  background: url('../images/originalpicture.jpg') , url('../images/jazmin-quaynor-jC7jCVzI2S0-unsplash.jpg') ;
+  background-size: 24% 76vh , 33% 100vh;
+  background-repeat: no-repeat, no-repeat;
+  background-position-x: 40% , 0%;
+  background-position-y: 96.2% , 0% ;
+  
+}
+
+picture img{
+  width: 320px;
+  height: 480px;
+  position: absolute;
+  left: 27%;
+  top: 15%;
+  z-index: 20;
+}
+
+.number{
+  width: 430px;
+  display: flex;
+  justify-content: space-between;
+  transform: rotate(90deg);
+  position: absolute;
+  left: 40em;
+  bottom: 17em;
+
+}
+
+p.one{
+
+  transform: rotate(90deg);
+  position:absolute;
+  left: 53em;
+  top: 37em;
+}
+p.two{
+  
+  transform: rotate(90deg);
+  position:absolute;
+  left: 54.5em;
+  top: 39em;
+}
+p.three{
+  
+  transform: rotate(90deg);
+  position:absolute;
+  left: 56em;
+  top: 41em;
+}
+
+svg{
+  position: absolute;
+  left: 71.5em;
+  top:28em;
+}
+
+section.content{
+  position: relative;
+  bottom: 8em;
+}
+
+
+nav{
+  position: fixed;
+  top: 0;
+  right: 0;
+  background: grey;
+  width: 50%;
+  height: 100vh;
+  z-index: 200;
+  text-transform: uppercase;
+  transform: translateX(100%);
+  transition: transform 0.5s ease-in-out;
+
+  ul{
+    list-style-type: none;
+    padding: 0;
+    margin-top: 8em; 
+
+    a{
+      color: white;
+      padding: 0.75em 2em ;
+      display: block;
+
+      &:hover{
+        background: rgb(209, 209, 209);
+        color: black;
+      } 
+    }
+    
+  }
+
+ svg{
+   position: absolute;
+   left: 90%;
+   top:4%;
+   
+   width: 2.5em;
+  
+}
+}
+
+/*  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>mini DESKTOP 1023px to 1400px <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  */
+
+ @media only screen and (min-width:1024px) and (max-width:1350px) {
+   .menuicon{
+    display:none;
+   }
+
+   .close_icon{
+    display: none;
+   }
+   
+   .digits{
+    display: none;
+   }
+   nav{
+  //transform: translateX(0);
+    position: unset;
+    display:block;   
+    height:auto;
+    background: none;
+     ul{
+     margin-top: 1em;
+     display: flex;
+       a{
+         color: whitesmoke;
+         font-size: .9rem;
+         padding: .5em 1.5em;
+
+         &:hover {
+          background: none;
+          color: rgb(144, 144, 144);
+         }
+         }
+      }
+   }
+    
+   .myname{
+    width:40vw ;
+    font-size: 3.7vw;
+    position: absolute;
+    left: 30%;
+    top: 2%;
+   }
+
+   h3.job_title{
+    position: absolute;
+    left: 60%;
+    font-size :3.7vw;
+    span{
+      font-size: 3.7vw;
+    }
+   }
+
+   h3.dev{
+    font-size: 4.8vw ;
+    position: 571%;
+    span{
+      font-size: 1vw;
+    }
+  }
+
+  .personal_statement{
+    font-size: 1.7vw;
+    line-height: 3.5vw;
+    position: absolute;
+    left: 61%;
+    top: 42%
+  }
+
+  .arrow{
+  position: absolute;
+  left: 71.5%;
+  top: 60%;
+  animation: moveArrow 3s alternate-reverse;
+  animation-iteration-count: infinite;
+  }
+  
+
+  @keyframes moveArrow{
+    from{
+      transform: translateY(-30px);
+    }
+    to{
+      transform: translateY(0);
+    } 
+  }
+
+  footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+
+  }
+
+  .form_section{
+    margin: 0;
+    padding: 0;
+  }
+
+  .form_wrap{
+    margin: 0;
+    padding: 0;
+  }
+}
+
+
+ 
+
+
+ 
+ @media only screen and (min-width:1350px){
+
+  nav{
+    //transform: translateX(0);
+      position: unset;
+      display:block;   
+      height:auto;
+      background: none;
+       ul{
+       margin-top: 1em;
+       display: flex;
+         a{
+           color: whitesmoke;
+           font-size: .9rem;
+           padding: .5em 1.5em;
+  
+           &:hover {
+            background: none;
+            color: rgb(144, 144, 144);
+           }
+           }
+        }
+     }
+     .close_icon{
+      display: none;
+     }
+ }
+ 
+ 
+
+///* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> TAB  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+@media only screen and (max-width:1024px){
+
+ .arrow{
+  display: none;
+ }
+
+ ul.menu{
+  display: block;
+ }
+
+.close_icon {
+    position: absolute;
+    left: 87%;
+  path{
+  fill: white;
+  stroke: white;
+  stroke-width: 0.1px;
+  }
+  
+}
+
+ article{
+  margin: 0;
+
+ }
+
+ section.content{
+  position: relative;
+  top:100%;
+  margin: 0;
+  font-size: 1.7vw;
+ }
+
+ 
+ header{
+   width: 8vw;
+   height: 8vw;
+   position: absolute;
+   left: 90%;
+   top: 0%;
+   margin: 0px;
+   padding: 0px;
+   overflow: scroll;
+    svg.menuicon{
+      width: 6vw;
+      padding: 0;
+      margin: 0;
+    }
+   
+ }
+
+ .personal_statement{
+  width: 30vw;
+  height: 17vh;
+  line-height: 3.7vw;
+  text-align: justify;
+  font-size: 2.2vw;
+  position: absolute;
+  left: 52vw;
+  top: 25vw;
+ }
+
+
+ .digits{
+  display: none;
+ }
+  .number{
+  display: none;
+  width: 27vw;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1vw;
+  position: absolute;
+  left:5%;
+  top :15%;
+ }
+ 
+ .myname{
+  color: grey;
+  font-size: 4.7vw;
+  width:40vw;
+  //margin: 1%;
+  position: absolute;
+  left:48%;
+  top: 0%;
+  margin-top: 0
+ }
+ 
+
+ h3.job_title{
+  color: grey;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 4vw;
+  font-size: 4vw;
+  left: 48.6%;
+  margin: 0;
+  z-index: 23;
+  padding:1em;
+  span{
+    font-size: 4vw;
+    position: absolute;
+    left: 3.7em;
+    padding:0;
+    color: whitesmoke;
+    padding: 1em;
+    
+  }
+ }
+
+ h3.dev{
+  font-size: 4vw;
+  position: absolute;
+  left: 48.6%;
+  top: 6vw;
+  padding: 1em;
+ }
+
+ span.est{
+  font-size:1.6vw;
+  position:absolute;
+  top: 8vw;
+  left:85%;
+  padding: 1em;
+  }
+ 
+
+  p.lastnum{
+  display:none;
+ }
+
+ .number2{
+  display: none;
+ }
+
+
+ picture{
+   display: none;
+  }
+  .hero_section{
+  background-size: 27% 40vw , 38% 55vw;
+  background-position-x: 28% , 0%;
+  background-position-y: 6vw , 0% ;
+  }
+ 
+
+ .QF1_container{
+  display: block;
+ }
+
+ .QF2_container{
+  display: block;
+ }
+
+ .job1_container{
+  display: block;
+ }
+
+ .job2_container{
+  display: block;
+ }
+
+ ul.skl{
+  display: block;
+ }
+
+ footer{
+  display: block;
+  width: 100vw;
+  //overflow: visible;
+ }
+
+
+}
+
+@media  only screen and (min-width: 768px){
+  p.intro2{
+    display: none;
+  }
+}
+
+
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> MOBILE <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+ @media only screen and (max-width:768px){
+
+ 
+  .form_wrap{
+    width: 100px;
+
+  .form_section{
+    width:100%;
+  
+
+   form{
+   width: 100%;
+    .formgroup{
+      width: 100%;
+  
+    }
+    .form_row{
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      .col{
+        width: 48%;
+        input{
+          width: 100%;
+        }
+      }
+    }
+    .dropdownlist{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      
+    
+    }
+  
+    textarea{
+      width: 100%;
+    }
+  
+    .btn{
+      width: 100%;
+    }
+  }
+  
+  .hero_section{ 
+  background: url('../images/originalpicture.jpg');
+  background-size:cover;
+  width: 100vw;
+  height: 100vh;
+  }
+  
+  div.profile{
+    display: none; 
+  }
+
+  div.words{
+    h3{
+      display: none;
+    }
+  }
+ 
+ 
+  .QF1_container{
+  display: block;
+ }
+
+ .QF2_container{
+  display: block;
+ }
+
+  .job1_container{
+  display: block;
+  }
+
+  .job2_container{
+  display: block;
+  }
+
+  ul.skl{
+  display: block;
+ }
+
+ 
+  .personal_statement{
+    display: none;
+  }
+
+  .arrow{
+    display: none;
+  }
+
+  .myname{
+    display: none;
+  }
+
+  footer{
+    display: block;
+    width: 100%;
+  }
+           
+  // body{
+  //   margin: 0;
+  //   padding: 0;
+  // }
+
+  .intro{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 60%;
+  }
+
+  .intro2{
+    width: 94vw;
+    display: block;
+    text-align: center;
+    font-size: 4.5vw;
+    span.name {
+      font-weight: bold;
+    }
+    span.scroll_text{
+      font-size: 3vw;
+    }
+  }
+
+  .number2{
+    display: none;
+  }
+
+  .number{
+    font-size: 5vw;
+  }
+ 
+  
+  fieldset{
+  width: 100%;
+  border-color: black;
+  
+  .formgroup{
+    width: 100%;
+
+  }
+  .form_row{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    .col{
+      width: 48%;
+      input{
+        width: 100%;
+      }
+    }
+  }
+  .dropdownlist{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+  
+  }
+
+  textarea{
+    width: 100%;
+  }
+
+  .btn{
+    width: 100%;
+  }
+ }
+
+ section.content{
+  font-size: 3vw;
+  padding-top: 25%;
+ }
+
+ header{
+  width: 16vw;
+  height: 16vw;
+  position: absolute;
+  left: 80%;
+  top: 3%;
+ }
+
+ .menuicon{ 
+  width: 5vw;
+  path{
+  stroke: black;
+  fill: black;
+ }
+ }
+
+ .close_icon{
+  position: absolute;
+  left: 80%;
+ }
+ 
+}
+ 
+ }
+}
