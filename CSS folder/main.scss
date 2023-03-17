@@ -678,8 +678,10 @@ nav {
 
 ///* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> TAB  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 
+
 @media only screen and (max-width:1024px) {
 
+  
   .arrow {
     display: none;
   }
@@ -710,6 +712,7 @@ nav {
     top: 100%;
     margin: 0;
     font-size: 1.7vw;
+    padding: 2vw 0px ;
   }
 
 
@@ -721,13 +724,9 @@ nav {
     top: 0%;
     margin: 0px;
     padding: 0px;
-    overflow: scroll;
+    overflow: visible;
 
-    svg.menuicon {
-      width: 6vw;
-      padding: 0;
-      margin: 0;
-    }
+    
 
   }
 
@@ -827,6 +826,17 @@ nav {
     background-size: 27% 40vw, 38% 55vw;
     background-position-x: 28%, 0%;
     background-position-y: 6vw, 0%;
+     
+    svg.menuicon {
+      position: absolute;
+      top: 2%;
+      left: 80%;
+      width: 6vw;
+      padding: 0;
+      margin: 0;
+    }
+  
+   
   }
 
 
@@ -935,6 +945,15 @@ nav {
     background-size: cover;
     width: 100vw;
     height: 100vh;
+    .menuicon {
+      width: 5vw;
+  
+      path {
+        stroke: black;
+        fill: black;
+      }
+    }
+     
   }
 
   div.profile {
@@ -1076,14 +1095,8 @@ nav {
     top: 3%;
   }
 
-  .menuicon {
-    width: 5vw;
+  
 
-    path {
-      stroke: black;
-      fill: black;
-    }
-  }
 
   .close_icon {
     position: absolute;

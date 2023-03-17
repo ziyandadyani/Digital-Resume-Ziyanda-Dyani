@@ -597,6 +597,7 @@ nav svg {
     top: 100%;
     margin: 0;
     font-size: 1.7vw;
+    padding: 2vw 0px;
   }
   header {
     width: 8vw;
@@ -606,12 +607,7 @@ nav svg {
     top: 0%;
     margin: 0px;
     padding: 0px;
-    overflow: scroll;
-  }
-  header svg.menuicon {
-    width: 6vw;
-    padding: 0;
-    margin: 0;
+    overflow: visible;
   }
   .personal_statement {
     width: 30vw;
@@ -693,6 +689,14 @@ nav svg {
     background-position-x: 28%, 0%;
     background-position-y: 6vw, 0%;
   }
+  .hero_section svg.menuicon {
+    position: absolute;
+    top: 2%;
+    left: 80%;
+    width: 6vw;
+    padding: 0;
+    margin: 0;
+  }
   .QF1_container {
     display: block;
   }
@@ -762,6 +766,13 @@ nav svg {
     background-size: cover;
     width: 100vw;
     height: 100vh;
+  }
+  .hero_section .menuicon {
+    width: 5vw;
+  }
+  .hero_section .menuicon path {
+    stroke: black;
+    fill: black;
   }
   div.profile {
     display: none;
@@ -861,13 +872,6 @@ nav svg {
     position: absolute;
     left: 80%;
     top: 3%;
-  }
-  .menuicon {
-    width: 5vw;
-  }
-  .menuicon path {
-    stroke: black;
-    fill: black;
   }
   .close_icon {
     position: absolute;
