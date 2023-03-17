@@ -11,12 +11,10 @@ header {
   align-items: flex-start;
   justify-content: center;
   position: absolute;
-  width: -moz-fit-content;
   width: fit-content;
   left: 54vw;
   display: inline-block;
   overflow: visible;
-  inline-size: -moz-min-content;
   inline-size: min-content;
 }
 
@@ -179,7 +177,7 @@ footer {
   color: whitesmoke;
 }
 footer a {
-  color: rgb(140, 206, 247);
+  color: #8ccef7;
 }
 
 .experience_section {
@@ -352,7 +350,7 @@ form {
 button {
   width: 580px;
   height: 40px;
-  background-color: rgb(37, 101, 229);
+  background-color: #2565e5;
   color: white;
   border-radius: 5px;
   border: none;
@@ -451,7 +449,7 @@ nav ul a {
   display: block;
 }
 nav ul a:hover {
-  background: rgb(209, 209, 209);
+  background: #d1d1d1;
   color: black;
 }
 nav svg {
@@ -466,12 +464,15 @@ nav svg {
   .menuicon {
     display: none;
   }
+
   .close_icon {
     display: none;
   }
+
   .digits {
     display: none;
   }
+
   nav {
     position: unset;
     display: block;
@@ -489,8 +490,9 @@ nav svg {
   }
   nav ul a:hover {
     background: none;
-    color: rgb(144, 144, 144);
+    color: #909090;
   }
+
   .myname {
     width: 40vw;
     font-size: 3.7vw;
@@ -498,6 +500,7 @@ nav svg {
     left: 30%;
     top: 2%;
   }
+
   h3.job_title {
     position: absolute;
     left: 60%;
@@ -506,6 +509,7 @@ nav svg {
   h3.job_title span {
     font-size: 3.7vw;
   }
+
   h3.dev {
     font-size: 4.8vw;
     position: 571%;
@@ -513,6 +517,7 @@ nav svg {
   h3.dev span {
     font-size: 1vw;
   }
+
   .personal_statement {
     font-size: 1.7vw;
     line-height: 3.5vw;
@@ -520,6 +525,7 @@ nav svg {
     left: 61%;
     top: 42%;
   }
+
   .arrow {
     position: absolute;
     left: 71.5%;
@@ -527,6 +533,7 @@ nav svg {
     animation: moveArrow 3s alternate-reverse;
     animation-iteration-count: infinite;
   }
+
   @keyframes moveArrow {
     from {
       transform: translateY(-30px);
@@ -540,10 +547,12 @@ nav svg {
     flex-direction: column;
     justify-content: space-between;
   }
+
   .form_section {
     margin: 0;
     padding: 0;
   }
+
   .form_wrap {
     margin: 0;
     padding: 0;
@@ -567,8 +576,9 @@ nav svg {
   }
   nav ul a:hover {
     background: none;
-    color: rgb(144, 144, 144);
+    color: #909090;
   }
+
   .close_icon {
     display: none;
   }
@@ -577,9 +587,11 @@ nav svg {
   .arrow {
     display: none;
   }
+
   ul.menu {
     display: block;
   }
+
   .close_icon {
     position: absolute;
     left: 87%;
@@ -589,15 +601,18 @@ nav svg {
     stroke: white;
     stroke-width: 0.1px;
   }
+
   article {
     margin: 0;
   }
+
   section.content {
     position: relative;
     top: 100%;
     margin: 0;
     font-size: 1.7vw;
   }
+
   header {
     width: 8vw;
     height: 8vw;
@@ -613,6 +628,7 @@ nav svg {
     padding: 0;
     margin: 0;
   }
+
   .personal_statement {
     width: 30vw;
     height: 17vh;
@@ -623,9 +639,11 @@ nav svg {
     left: 52vw;
     top: 25vw;
   }
+
   .digits {
     display: none;
   }
+
   .number {
     display: none;
     width: 27vw;
@@ -636,6 +654,7 @@ nav svg {
     left: 5%;
     top: 15%;
   }
+
   .myname {
     color: grey;
     font-size: 4.7vw;
@@ -645,6 +664,7 @@ nav svg {
     top: 0%;
     margin-top: 0;
   }
+
   h3.job_title {
     color: grey;
     display: flex;
@@ -665,6 +685,7 @@ nav svg {
     color: whitesmoke;
     padding: 1em;
   }
+
   h3.dev {
     font-size: 4vw;
     position: absolute;
@@ -672,6 +693,7 @@ nav svg {
     top: 6vw;
     padding: 1em;
   }
+
   span.est {
     font-size: 1.6vw;
     position: absolute;
@@ -679,38 +701,49 @@ nav svg {
     left: 85%;
     padding: 1em;
   }
+
   p.lastnum {
     display: none;
   }
+
   .number2 {
     display: none;
   }
+
   picture {
     display: none;
   }
+
   .hero_section {
     background-size: 27% 40vw, 38% 55vw;
     background-position-x: 28%, 0%;
     background-position-y: 6vw, 0%;
   }
+
   .QF1_container {
     display: block;
   }
+
   .QF2_container {
     display: block;
   }
+
   .QF3_container {
     display: block;
   }
+
   .job1_container {
     display: block;
   }
+
   .job2_container {
     display: block;
   }
+
   ul.skl {
     display: block;
   }
+
   footer {
     display: block;
     width: 100vw;
@@ -757,46 +790,59 @@ nav svg {
   .form_wrap .form_section form .btn {
     width: 100%;
   }
+
   .hero_section {
     background: url("../images/originalpicture.jpg");
     background-size: cover;
     width: 100vw;
     height: 100vh;
   }
+
   div.profile {
     display: none;
   }
+
   div.words h3 {
     display: none;
   }
+
   .QF1_container {
     display: block;
   }
+
   .QF2_container {
     display: block;
   }
+
   .job1_container {
     display: block;
   }
+
   .job2_container {
     display: block;
   }
+
   ul.skl {
     display: block;
   }
+
   .personal_statement {
     display: none;
   }
+
   .arrow {
     display: none;
   }
+
   .myname {
     display: none;
   }
+
   footer {
     display: block;
     width: 100%;
   }
+
   .intro {
     width: 100vw;
     display: flex;
@@ -804,6 +850,7 @@ nav svg {
     position: absolute;
     top: 60%;
   }
+
   .intro2 {
     width: 94vw;
     display: block;
@@ -816,12 +863,15 @@ nav svg {
   .intro2 span.scroll_text {
     font-size: 3vw;
   }
+
   .number2 {
     display: none;
   }
+
   .number {
     font-size: 5vw;
   }
+
   fieldset {
     width: 100%;
     border-color: black;
@@ -851,10 +901,12 @@ nav svg {
   fieldset .btn {
     width: 100%;
   }
+
   section.content {
     font-size: 3vw;
     padding-top: 25%;
   }
+
   header {
     width: 16vw;
     height: 16vw;
@@ -862,6 +914,7 @@ nav svg {
     left: 80%;
     top: 3%;
   }
+
   .menuicon {
     width: 5vw;
   }
@@ -869,8 +922,9 @@ nav svg {
     stroke: black;
     fill: black;
   }
+
   .close_icon {
     position: absolute;
     left: 80%;
   }
-}/*# sourceMappingURL=main.css.map */
+}
